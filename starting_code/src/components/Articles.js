@@ -5,6 +5,7 @@ import Search from "./Search";
 import { Link, NavLink, useSearchParams } from 'react-router-dom';
 
 // Import Link and useSearchParams from React Router
+// The useSearchParams hook is used to read and modify the query string in the URL for the current location.
 
 export default function Articles() {
   const articles = useSelector(selectArticles);
